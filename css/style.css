@@ -1,0 +1,35 @@
+body{
+	font-family: 'Baloo Paaji', cursive;
+	background-image: url("../img/c1.jpg");
+	color: white;
+}
+::-webkit-input-placeholder{
+	font-family: 'Baloo Paaji', cursive;
+	font-size: 20px;
+}
+input[value="Go!"]{
+	font-family: 'Baloo Paaji', cursive;
+	font-size: 20px;
+}
+/*::-moz-placeholder{
+	font-family: 'Baloo Paaji', cursive;
+}*/
+.container{
+	text-align: center;
+}
+#search-field{
+	width: 30%;
+	height: 50px;
+	border-radius: 7px;
+	border:5px solid  #80e5ff;
+}
+#go-btn{
+	width:50px;
+	height: 50px;
+	background-color: #80e5ff;
+	border-radius: 7px;
+}
+#go-btn:hover{
+	background-color:  #33d6ff;
+	cursor: pointer;
+}
